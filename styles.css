@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Header Style */
+
+.header {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #575757;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  line-height: 25.6px;
+  transition-duration: 700ms;
+}
+
+.menu ul li:hover a {
+  color: #2563eb;
+}
+
+.nav-button {
+  text-decoration: none;
+  background-color: #1d4ed8;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+/* Hero Section Styles */
+
+.hero-section {
+  width: 100%;
+  min-height: 88vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 1280px;
+}
+
+.hero-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+
+.hero-content h1 em {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 22px;
+  color: #e5e7eb;
+  font-weight: 400;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+.hero-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  padding: 14px 36px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.hero-button:hover {
+  background-color: #082c91;
+}
