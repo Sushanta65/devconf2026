@@ -98,10 +98,12 @@ body {
 
 .hero-button {
   display: inline-block;
-  text-decoration: none;
-  background-color: #1d4ed8;
+   font-size: 16px;
   color: #ffffff;
-  padding: 14px 36px;
+  background-color: #1d4ed8;
+  text-decoration: none;
+   border-radius: 6px;
+   padding: 14px 36px;
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
@@ -110,4 +112,71 @@ body {
 
 .hero-button:hover {
   background-color: #082c91;
+}
+
+
+/* speaker section */
+
+.speakers-section {
+    max-width: 1200px;
+    margin: 80px auto; 
+    padding: 0 24px;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #0f172a;
+    text-align: center;
+    font-weight: 700;    
+    margin-bottom: 48px;
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+}
+
+.speaker-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 4px 6px -1px #e3e3e30d; 
+  
+}
+
+.speaker-img {
+    width: 100%;
+}
+
+.speaker-info {
+    padding: 24px;
+}
+
+.speaker-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.tag {
+     color: #2563eb; 
+    }
+
+
+.speaker-info h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+
+.speaker-info p {
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: 400;
 }
