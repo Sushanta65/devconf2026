@@ -8,7 +8,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* Header Style */
+/* Header style */
 
 .header {
   width: 1280px;
@@ -58,7 +58,7 @@ body {
   cursor: pointer;
 }
 
-/* Hero Section Styles */
+/* Hero section */
 
 .hero-section {
   width: 100%;
@@ -295,11 +295,12 @@ body {
   padding-left: 20px;
 }
 
-.features-list li::before { /* It was really hard for me :(  */
+.features-list li::before {
+  /* It was really hard for me :(  */
   content: "•";
   position: absolute;
   left: 0;
-  color: #2563EB;
+  color: #2563eb;
 }
 
 .featured-card .features-list li {
@@ -337,67 +338,119 @@ body {
   color: #ffffff;
 }
 
-
 /* Extra chanllenge section */
 
-
 .what-expect-section {
-    max-width: 1280px;
-    margin: 100px auto ; 
-    padding: 0 30px;
+  max-width: 1280px;
+  margin: 100px auto;
+  padding: 0 30px;
 }
 
 .expect-header {
-    text-align: center;
-    margin-bottom: 54px;
+  text-align: center;
+  margin-bottom: 54px;
 }
 
 .expect-header h2 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #0f172a;
-    margin-bottom: 12px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
 }
 
 .expect-header p {
-    font-size: 16px;
-    color: #4b5563;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.5;
+  font-size: 16px;
+  color: #4b5563;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
-
 
 .what-expect-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
-
 
 .expect-card {
-    background-color: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    padding: 32px;
-    transition: all 0.3s ease;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+  transition: all 0.3s ease;
 }
 
-
 .expect-img {
-    width: 50px;
-    margin-bottom: 20px;
-    }
+  width: 50px;
+  margin-bottom: 20px;
+}
 
 .expect-card h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #1f2937;
-    margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 12px;
 }
 
 .expect-card p {
-    font-size: 14px;
-    color: #575757;
+  font-size: 14px;
+  color: #575757;
   line-height: 1.6;
+}
+
+/* Footer section */
+
+.main-footer {
+  width: 100%;
+  background-color: #0f172a;
+  color: #9ca3af;
+  padding: 60px 0 30px 0;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socials a {
+  color: #9ca3af;
+  transition: 700ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footer-socials a:hover {
+  color: #082c91;
+}
+
+.footer-divider {
+  border: 0;
+  height: 1px;
+  background-color: #334155;
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #64748b;
 }
