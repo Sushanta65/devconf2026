@@ -53,10 +53,9 @@ body {
   transition-duration: 700ms;
 }
 
-.nav-button:hover{
+.nav-button:hover {
   background-color: #082c91;
   cursor: pointer;
-
 }
 
 /* Hero Section Styles */
@@ -105,12 +104,12 @@ body {
 
 .hero-button {
   display: inline-block;
-   font-size: 16px;
+  font-size: 16px;
   color: #ffffff;
   background-color: #1d4ed8;
   text-decoration: none;
-   border-radius: 6px;
-   padding: 14px 36px;
+  border-radius: 6px;
+  padding: 14px 36px;
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
@@ -121,235 +120,284 @@ body {
   background-color: #082c91;
 }
 
-
 /* speaker section */
 
 .speakers-section {
-    max-width: 1200px;
-    margin: 80px auto; 
-    padding: 0 240x;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 240x;
 }
 
 .section-title {
-    font-size: 48px;
-    color: #0D1B2A;
-    text-align: center;
-    font-weight: 700;    
-    margin-bottom: 48px;
+  font-size: 48px;
+  color: #0d1b2a;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
 
 .speakers-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 
 .speaker-card {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 12px;
-    overflow: hidden; 
-    box-shadow: 0 4px 6px -1px #e3e3e30d; 
-  
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px #e3e3e30d;
 }
 
 .speaker-img {
-    width: 100%;
+  width: 100%;
 }
 
 .speaker-info {
-    padding: 24px;
+  padding: 24px;
 }
 
 .speaker-tag {
-    display: inline-block;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 .tag {
-     color: #2563eb; 
-    }
-
+  color: #2563eb;
+}
 
 .speaker-info h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #1f2937;
-    margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
 }
 
 .speaker-info p {
-    font-size: 14px;
-    color: #6b7280;
-    font-weight: 400;
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 400;
 }
-
-
-
-
 
 /* pricing section */
 
-
 .pricing-section {
-    max-width: 1200px;
-    margin: 100px auto;
-    padding: 0 20px;
+  max-width: 1280px;
+  margin: 100px auto;
+  padding: 0 20px;
 }
 
 .pricing-header {
-    text-align: center;
-    margin-bottom: 60px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .pricing-header h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: #0D1B2A;
-    margin-bottom: 12px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 12px;
 }
 
 .pricing-header p {
-    font-size: 15px;
-    color: #575757;
+  font-size: 15px;
+  color: #575757;
 }
-
 
 .pricing-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    align-items: start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: start;
 }
-
 
 .price-card {
-    background-color: #f9fafb; 
-    border: 1px solid #e5e7eb;    
-    padding: 40px 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 8px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
 }
-
 
 .price-card.featured-card {
-    background-color: #0b1329;
-    border-color: #0b1329;
-    color: #ffffff;
+  background-color: #0b1329;
+  border-color: #0b1329;
+  color: #ffffff;
 }
 
-
 .card-top {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .plan-name {
-    font-size: 12px;
-    color: #888888;
-    font-weight: 700;
-    letter-spacing: 1px;
-    
-    display: block;
-    margin-bottom: 16px;
+  font-size: 12px;
+  color: #888888;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  display: block;
+  margin-bottom: 16px;
 }
 
 .featured-card .plan-name {
-    color: #93C5FD; 
+  color: #93c5fd;
 }
 
 .plan-price {
-    display: flex;
-    align-items: flex-start;
-    font-weight: 700;
-    color: #0f172a;
-    line-height: 1;
-    margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1;
+  margin-bottom: 8px;
 }
 
 .featured-card .plan-price {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .plan-price .currency {
-    font-size: 24px;
-    margin-top: 4px;
-    margin-right: 2px;
+  font-size: 24px;
+  margin-top: 4px;
+  margin-right: 2px;
 }
 
 .plan-price .amount {
-    font-size: 44px;
+  font-size: 44px;
 }
 
 .price-for {
-    font-size: 13px;
-    color: #575757;
+  font-size: 13px;
+  color: #575757;
 }
 
 .featured-card .price-for {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-
 .features-list {
-    list-style: none;
-    margin-bottom: 40px;
+  list-style: none;
+  margin-bottom: 40px;
 }
 
 .features-list li {
-    font-size: 14px;
-    color: #4b5563;
-    margin-bottom: 16px;
-    position: relative;
-    padding-left: 20px;
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 20px;
 }
 
-
-.features-list li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #9ca3af;
+.features-list li::before { /* It was really hard for me :(  */
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2563EB;
 }
 
 .featured-card .features-list li {
-    color: #d1d5db;
+  color: #d1d5db;
 }
 
-
-.card-action a { /*for the plan buttons */
-      display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 36px;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 600;
-    transition: all 0.2s ease;
+.card-action a {
+  /* its for the plan buttons */
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 36px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 
 .button-solid {
-    background-color: #1d4ed8;
-    color: #ffffff;
+  background-color: #1d4ed8;
+  color: #ffffff;
 }
 
 .button-solid:hover {
-    background-color: #082c91;
+  background-color: #082c91;
 }
 
 .button-outline {
-    border: 1px solid #1d4ed8;
-    color: #2563eb;
+  border: 1px solid #1d4ed8;
+  color: #2563eb;
 }
 
 .button-outline:hover {
-    background-color: #082c91;
-    color: #ffffff;
+  background-color: #082c91;
+  color: #ffffff;
 }
 
 
+/* Extra chanllenge section */
+
+
+.what-expect-section {
+    max-width: 1280px;
+    margin: 100px auto ; 
+    padding: 0 30px;
+}
+
+.expect-header {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.expect-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.expect-header p {
+    font-size: 16px;
+    color: #4b5563;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+
+.what-expect-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+.expect-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 32px;
+    transition: all 0.3s ease;
+}
+
+
+.expect-img {
+    width: 50px;
+    margin-bottom: 20px;
+    }
+
+.expect-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+
+.expect-card p {
+    font-size: 14px;
+    color: #575757;
+  line-height: 1.6;
+}
