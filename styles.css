@@ -283,7 +283,7 @@ body {
 }
 
 .plan-price .amount {
-    font-size: 48px;
+    font-size: 44px;
 }
 
 .price-for {
@@ -322,13 +322,13 @@ body {
 }
 
 
-.card-action a {
-    display: block;
+.card-action a { /*for the plan buttons */
+      display: block;
     text-align: center;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 14px 36px;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     transition: all 0.2s ease;
 }
