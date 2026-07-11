@@ -1,0 +1,3 @@
+Prompt 1: Act as a expert frontend developer. I need a brand-new, unique section for a tech conference website for DevConf 2026. The section must stay relevant to the DevConf 2026 theme (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.). 
+
+Prompt 2: The design must match a clean, modern aesthetic with Inter font, featuring a 2x2 layout grid of highlight cards. Each card should have a modern emoji icon, a bold title, and a short, realistic description.
